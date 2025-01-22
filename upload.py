@@ -15,18 +15,18 @@ def get_checksum_xml(part_dictionary, root_node_tag):
 
 json_response = {
     "partsUploadUrlList": [
-        "http://192.168.240.19:9000/fireuser/13a66c6e-39d0-4b77-a9bb-4d3670b7983a/temp20M.dat?uploadId=de43a4c3-37d4-495f-9cee-315ed18f0451&partNumber=1&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=storage_access_key%2F20250117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250117T101825Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=68223de9341f52312c77050d4b2191d71389c5f8ae84cb566d0526b13f7ceee5",
-        "http://192.168.240.19:9000/fireuser/13a66c6e-39d0-4b77-a9bb-4d3670b7983a/temp20M.dat?uploadId=de43a4c3-37d4-495f-9cee-315ed18f0451&partNumber=2&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=storage_access_key%2F20250117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250117T101825Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d33892893739f65683b685ba5b91c05adf187298477d27b9af354f7f2451f460"
+        "http://192.168.240.19:9000/fireuser/bf2f59a8-aed5-4ee5-87e2-e84ea0bcd012/temp20M-10.dat?uploadId=9aba9b21-facc-4787-83dc-08b158e2538f&partNumber=1&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=storage_access_key%2F20250122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250122T170024Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5caed7c1ef1b932f467af2764db32c90f79ef2b9b925788f649d7b4cf76a0aa9",
+        "http://192.168.240.19:9000/fireuser/bf2f59a8-aed5-4ee5-87e2-e84ea0bcd012/temp20M-10.dat?uploadId=9aba9b21-facc-4787-83dc-08b158e2538f&partNumber=2&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=storage_access_key%2F20250122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250122T170024Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b90e72de5c838fd5b811dda0cb5ae94f9787671f26f5af9212bbfc0850180d8e"
     ],
-    "completeUploadUrl": "http://192.168.240.19:9000/fireuser/13a66c6e-39d0-4b77-a9bb-4d3670b7983a/temp20M.dat?uploadId=de43a4c3-37d4-495f-9cee-315ed18f0451&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=storage_access_key%2F20250117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250117T101825Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=306a5873edeead13c86ac4742c977f810f2b64cd7ef5a168140ad4e9f12aee00",
+    "completeUploadUrl": "http://192.168.240.19:9000/fireuser/bf2f59a8-aed5-4ee5-87e2-e84ea0bcd012/temp20M-10.dat?uploadId=9aba9b21-facc-4787-83dc-08b158e2538f&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=storage_access_key%2F20250122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250122T170024Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ca102e9cdf68fd3950c102ba5ec19849be1a5ac0aa3d8b781167a296e90b0482",
     "maxPartSize": 10485760,
     "transferJob": {
-        "jobId": 5,
+        "jobId": 8,
         "system": "cluster-slurm-api",
         "workingDirectory": "/home/fireuser",
         "logs": {
-            "outputLog": "/home/fireuser/.f7t_file_handling_job_5a1be2d0-e8b1-450c-8c5e-3330c13c5a9d.log",
-            "errorLog": "/home/fireuser/.f7t_file_handling_job_error_5a1be2d0-e8b1-450c-8c5e-3330c13c5a9d.log"
+            "outputLog": "/home/fireuser/.f7t_file_handling_job_282791a0-1cf3-48db-98b9-de8b48295434.log",
+            "errorLog": "/home/fireuser/.f7t_file_handling_job_error_282791a0-1cf3-48db-98b9-de8b48295434.log"
         }
     }
 }
